@@ -61,6 +61,7 @@
   position: relative;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  background-color:#fff;
 }
 
 .timeline > li > .timeline-panel:before {
@@ -184,13 +185,13 @@
                         </div>
                         <div style="height: 1px;" role="main" aria-expanded="false" class="navbar-collapse collapse" id="bs">
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#services">Features</a></li>
-                                <li><a href="#ifeatures">Why MNTR</a></li>
+                                <li><a href="#ifeatures">Features</a></li>
+                                <li><a href="#howitworks">How it works</a></li>
                                 <li><a href="#pricing">Pricing</a></li>
                                 <li><a href="#team">Our Company</a></li>
                                 <li><a href="#contact">Contact</a></li>
                                 <li class="support-button-holder support-dropdown">
-                                    <a class="support-button" href="#">Free Trial</a>
+                                    <a class="support-button" href="#">Sign up</a>
                                 </li>
                                 <li><a class="btn" href="#">Login</a></li>
                             </ul>
@@ -200,15 +201,15 @@
             </div>
         </div>
     </nav>
-    <div id="top-content" class="container-fluid">
+    <div style="padding-bottom:0"id="top-content" class="container-fluid">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
 <div class="type-wrap">
      <div id="typed-strings">
-      <p>Running a business can be difficult.</p>
+      <!---<p>Running a business can be difficult.</p>
       <p>Things take time and distract you.</p>
-      <p>When you need a hand, ask MNTR.</p>
+      <p>When you need a hand, ask MNTR.</p> -->
       <p>MNTR: your virtual business partner.</p>
     </div>
 
@@ -220,18 +221,41 @@
   
    
    
-
+<style>
+.lp-nav-center {max-width: 240px;margin: 0 auto}
+</style>
 
 
                     <div class="domain-search-holder">
-                        <form id="domain-search">
-                            <input id="domain-text" type="text" name="domain" placeholder="Ask MNTR a question..." />
-                            <span class="inline-button">
-                                <input id="search-btn" type="submit" name="submit" value="Ask">
-                            </span>
-                        </form>
 
-                        <li><a class="btn" href="#">Login</a></li>
+                      <h3 style="color:#fff; margin-bottom:20px">We're not launched yet, but register your interest for email updates</h3>
+
+
+                            <!-- Begin MailChimp Signup Form -->
+
+<div id="mc_embed_signup">
+<form id="domain-search" action="//github.us16.list-manage.com/subscribe/post?u=df9422b7e5624fe3858aef7ea&amp;id=5f932e65c8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+
+  <label for="mce-EMAIL" style="position: absolute;top:-5000px;left-5000px">Email Address  <span class="asterisk">Required</span>
+</label>
+  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Register email for updates!">
+  <span id="mce-responses" class="clear">
+    <span class="response" id="mce-error-response" style="display:none"></span>
+    <span class="response" id="mce-success-response" style="display:none"></span>
+  </span>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <span style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_df9422b7e5624fe3858aef7ea_5f932e65c8" tabindex="-1" value=""></span>
+    <span class="inline-button">
+
+      <input type="submit" value="Register my interest" name="subscribe" id="mc-embedded-subscribe" class="button">
+    </span>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+                  
                     </div>
                 </div>
 
@@ -243,9 +267,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="info-text">A little bit more about MNTR. Blah blah blah this is why you should use us. Lorem ipsum dolar sit amet. Lorem ipsum dolar sit amet. Lorem ipsum dolar sit amet. </div>
+                <div class="info-text">MNTR takes the hassle out of running a business by providing access to 24/7 advice and curated resources through a secure interface, at your fingertips.</div>
                 
-                <a href="#" class="ybtn ybtn-purple ybtn-shadow">Create new account</a>
+               <!-- <ul class="nav lp-nav-center">
+   
+                                <li class="support-button-holder support-dropdown">
+                                    <a class="support-button" href="#">Sign up</a>
+                                </li>
+                            </ul>-->
             </div>
         </div>
     </div>
@@ -253,7 +282,7 @@
 
 
 
-<div id="services" class="container-fluid">
+<!-- <div id="services" class="container-fluid">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -315,100 +344,138 @@ atque corrupti quos dolores et quas molestias.</p>
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
+<style>
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
-<div id="ifeatures" class="container-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row-title">Why MNTR?</div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6 col-md-3">
-                <div class="feature-box">
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+</style>
+
+<div style="padding-top:0;padding-bottom:0" id="ifeatures" class="container">
+<div class="row">
+    <div class="col-md-5ths col-xs-6">
+       <div class="feature-box">
                     <div class="feature-icon">
-                        <img src="images/feature1.svg" alt="">
+                        <img src="images/icon-expertise.png" alt="">
                     </div>
-                    <div class="feature-title">Share Files</div>
-                    <div class="feature-details">Lorem ipsum dolor sit amir anim
-amoe yosner dolner </div>
+                    <div class="feature-title">Expertise on Demand</div>
+                    <div class="feature-details">Book dedicated time with an expert to solve specific business issues.</div>
                 </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="feature-box">
+    </div>
+    <div class="col-md-5ths col-xs-6">
+       <div class="feature-box">
                     <div class="feature-icon">
-                        <img src="images/feature2.svg" alt="">
+                        <img src="images/icon-advisoryline.png" alt="">
                     </div>
-                    <div class="feature-title">Go Unlimited</div>
-                    <div class="feature-details">Lorem ipsum dolor sit amir anim
-amoe yosner dolner </div>
+                    <div class="feature-title">Advisory Line</div>
+                    <div class="feature-details">Your 24/7 helpline to get in touch with one of our trusted advisors.</div>
                 </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="feature-box">
+    </div>
+    <div class="col-md-5ths col-xs-6">
+       <div class="feature-box">
                     <div class="feature-icon">
-                        <img src="images/feature3.svg" alt="">
+                        <img src="images/icon-community.png" alt="">
                     </div>
-                    <div class="feature-title">Security First</div>
-                    <div class="feature-details">Lorem ipsum dolor sit amir anim
-amoe yosner dolner </div>
+                    <div class="feature-title">Community / Events</div>
+                    <div class="feature-details">Access a community of like minded people to help.</div>
                 </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="feature-box">
+    </div>
+    <div class="col-md-5ths col-xs-6">
+       <div class="feature-box">
                     <div class="feature-icon">
-                        <img src="images/feature4.svg" alt="">
+                        <img src="images/icon-tools.png" alt="">
                     </div>
-                    <div class="feature-title">Trusted 100%</div>
-                    <div class="feature-details">Lorem ipsum dolor sit amir anim
-amoe yosner dolner </div>
+                    <div class="feature-title">Tools</div>
+                    <div class="feature-details">Your one stop shop to find the tools you need to run your business.</div>
                 </div>
-            </div>
-        </div>
+    </div>
+    <div class="col-md-5ths col-xs-6">
+       <div class="feature-box">
+                    <div class="feature-icon">
+                        <img src="images/icon-recruitment.png" alt="">
+                    </div>
+                    <div class="feature-title">Recruitment</div>
+                    <div class="feature-details">Finding the right people, without the hassle.</div>
+                </div>
     </div>
 </div>
+</div>
 
 
 
-<div id="features" class="container-fluid">
+
+
+
+<div style="padding-top:0; background-color:#eaeaea" id="features" class="container-fluid">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <div class="row-title">All Features</div>
+                <div class="row-title">Features</div>
             </div>
         </div>
         <div class="row rtl-cols">
             <div class="col-sm-12 col-md-6">
                 <div id="features-links-holder">
                     <div class="icons-axis">
-                        <img src="images/features-icon.png" alt="">
+                        <img src="images/icon-bot.png" style="width:122px;margin-top:-15px"alt="">
                     </div>
                     <div class="feature-icon-holder feature-icon-holder1 opened" data-id="1">
                         <div class="animation-holder"><div class="special-gradiant"></div></div>
                         <div class="feature-icon"><i class="htfy htfy-worldwide"></i></div>
-                        <div class="feature-title">%99 Uptime</div>
+                        <div class="feature-title">Bot</div>
                     </div>
                     <div class="feature-icon-holder feature-icon-holder2" data-id="2">
                         <div class="animation-holder"><div class="special-gradiant"></div></div>
                         <div class="feature-icon"><i class="htfy htfy-cogwheel"></i></div>
-                        <div class="feature-title">Easy control panel</div>
+                        <div class="feature-title">Human Advisor</div>
                     </div>
                     <div class="feature-icon-holder feature-icon-holder3" data-id="3">
                         <div class="animation-holder"><div class="special-gradiant"></div></div>
                         <div class="feature-icon"><i class="htfy htfy-location"></i></div>
-                        <div class="feature-title">Email Marketing</div>
+                        <div class="feature-title">Coming soon</div>
                     </div>
                     <div class="feature-icon-holder feature-icon-holder4" data-id="4">
                         <div class="animation-holder"><div class="special-gradiant"></div></div>
                         <div class="feature-icon"><i class="htfy htfy-download"></i></div>
-                        <div class="feature-title">1CLICK Script Installs</div>
+                        <div class="feature-title">Coming soon</div>
                     </div>
                     <div class="feature-icon-holder feature-icon-holder5" data-id="5">
                         <div class="animation-holder"><div class="special-gradiant"></div></div>
                         <div class="feature-icon"><i class="htfy htfy-like"></i></div>
-                        <div class="feature-title">7/24 Support</div>
+                        <div class="feature-title">Coming soon</div>
                     </div>
                 </div>
             </div>
@@ -417,37 +484,36 @@ amoe yosner dolner </div>
                     <div class="feature-box feature-d1 show-details">
                         <div class="feature-title-holder">
                             <span class="feature-icon"><i class="htfy htfy-worldwide"></i></span>
-                            <span class="feature-title">%99 Uptime</span>
+                            <span class="feature-title">Bot</span>
                         </div>
                         <div class="feature-details">
-                            <p>At vero eos et accusamus et iusto odio dignissimos
-                                ducimus qui blanditiis praesentium voluptatum div
-                                atque corrupti quos dolores et quas molestias.</p>
+                            <p>An online virtual advisor, accessible anytime, anywhere.</p>
 
-                            <p>dignissimos ducimus qui blanditiis praesentium
-                                voluptatum div atque corrupti quos dolores et quas
-                                unimo molestias.</p>
+                            <p>Converse with our chatbot to get immadiate answers, specifically for your business queries.</p>
+
+                            <p>Bank grade security to make sure your information is always safe.</p>
+
+                            <p>Built and maintained by experts.</p>
                         </div>
                     </div>
                     <div class="feature-box feature-d2">
                         <div class="feature-title-holder">
                             <span class="feature-icon"><i class="htfy htfy-cogwheel"></i></span>
-                            <span class="feature-title">Easy control panel</span>
+                            <span class="feature-title">Human Advisor</span>
                         </div>
                         <div class="feature-details">
-                            <p>At vero eos et accusamus et iusto odio dignissimos
-                                ducimus qui blanditiis praesentium voluptatum div
-                                atque corrupti quos dolores et quas molestias.</p>
+                            <p>24/7 helpline.</p>
 
-                            <p>dignissimos ducimus qui blanditiis praesentium
-                                voluptatum div atque corrupti quos dolores et quas
-                                unimo molestias.</p>
+                            <p>Trusted advisors, handpicked by us.</p>
+
+                            <p>Our trusted advisors, on hand for your business needs, providing you with expert advice for immediate and urgent issues.</p>
+
                         </div>
                     </div>
                     <div class="feature-box feature-d3">
                         <div class="feature-title-holder">
                             <span class="feature-icon"><i class="htfy htfy-location"></i></span>
-                            <span class="feature-title">Email Marketing</span>
+                            <span class="feature-title">Coming soon</span>
                         </div>
                         <div class="feature-details">
                             <p>At vero eos et accusamus et iusto odio dignissimos
@@ -462,7 +528,7 @@ amoe yosner dolner </div>
                     <div class="feature-box feature-d4">
                         <div class="feature-title-holder">
                             <span class="feature-icon"><i class="htfy htfy-download"></i></span>
-                            <span class="feature-title">1CLICK Script Installs</span>
+                            <span class="feature-title">Coming soon</span>
                         </div>
                         <div class="feature-details">
                             <p>At vero eos et accusamus et iusto odio dignissimos
@@ -477,7 +543,7 @@ amoe yosner dolner </div>
                     <div class="feature-box feature-d5">
                         <div class="feature-title-holder">
                             <span class="feature-icon"><i class="htfy htfy-like"></i></span>
-                            <span class="feature-title">7/24 Support</span>
+                            <span class="feature-title">Coming soon</span>
                         </div>
                         <div class="feature-details">
                             <p>At vero eos et accusamus et iusto odio dignissimos
@@ -498,90 +564,39 @@ amoe yosner dolner </div>
 
 
 
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #2
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
-        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="container">
-  <div class="page-header">
-    <h1 id="timeline">How it works</h1>
-  </div>
-  <ul class="timeline">
+<div class="container" id="howitworks">
+  <div class="col-md-12">
+                <div class="row-title">How it Works</div>
+            </div>
+  <ul class="timeline" style="clear:both">
     <li>
       <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+          <h4 class="timeline-title">Meet Gerald</h4>
+        </div>
+        <div class="timeline-body">
+          <p>Beep boop boop.</p>
+        </div>
+      </div>
+    </li>
+    <li class="timeline-inverted">
+      <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Ask us anything...</h4>
           <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
         </div>
         <div class="timeline-body">
-          <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-            Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+          <p>...and get an answer. Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.</p>
         </div>
       </div>
     </li>
-    <li class="timeline-inverted">
+    <li>
       <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-        </div>
-        <div class="timeline-body">
-          <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-            Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-          <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere
-            pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+          <h4 class="timeline-title">Gerald puts you in touch with a human advisor</h4>
         </div>
         <div class="timeline-body">
           <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
@@ -590,17 +605,27 @@ amoe yosner dolner </div>
       </div>
     </li>
     <li class="timeline-inverted">
+      <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
-          <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+          <h4 class="timeline-title">Gerald can process your data to give tailored advice</h4>
         </div>
         <div class="timeline-body">
-          <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-            Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+          <p>Gerald can process your data (eg contacts, accounting) to give you tailored advice.</p>
         </div>
       </div>
     </li>
     <li>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">You're in control</h4>
+        </div>
+        <div class="timeline-body">
+          <p>You're always in control of what data you choose to share, and how long it stays with Gerald.</p>
+        </div>
+      </div>
+    </li>
+    <li class="timeline-inverted">
       <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading">
@@ -652,7 +677,6 @@ amoe yosner dolner </div>
 </div>
 
 
-
 <div id="message1" class="container-fluid message-area">
     <div class="bg-color"></div>
     <div class="container">
@@ -663,12 +687,15 @@ amoe yosner dolner </div>
             </div>
             <div class="col-sm-12 col-md-6">
                 <div class="buttons-holder">
-                    <a href="#" class="ybtn ybtn-purple">Create Your Account</a><a href="#" class="ybtn ybtn-white ybtn-shadow">Contact Us</a>
+                    <a href="#" class="ybtn ybtn-purple">Signup</a><a href="#" class="ybtn ybtn-white ybtn-shadow">Contact Us</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
+<!--
 <div id="pricing" class="container-fluid">
     <div class="bg-color"></div>
     <div class="container">
@@ -978,7 +1005,7 @@ amoe yosner dolner </div>
             </div>
         </div>
     </div>
-</div>
+</div>-->
 <div id="footer" class="container-fluid">
     <div class="container">
         <div class="row">
@@ -1009,10 +1036,10 @@ amoe yosner dolner </div>
                 <div class="footer-menu-holder">
                     <h4>Services</h4>
                     <ul class="footer-menu">
-                        <li><a href="#">Web Hosting</a></li>
-                        <li><a href="#">Cloud Hosting</a></li>
-                        <li><a href="#">VPS Servers</a></li>
-                        <li><a href="#">Domain Names</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
                     </ul>
                 </div>
             </div>
@@ -1020,10 +1047,10 @@ amoe yosner dolner </div>
                 <div class="footer-menu-holder">
                     <h4>Others</h4>
                     <ul class="footer-menu">
-                        <li><a href="#">Transfer domains</a></li>
-                        <li><a href="#">Customer Portal</a></li>
-                        <li><a href="#">Support Portal</a></li>
-                        <li><a href="#">Video Tutorials</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
+                        <li><a href="#">Lorem ipsum</a></li>
                     </ul>
                 </div>
             </div>
